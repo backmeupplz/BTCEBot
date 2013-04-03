@@ -13,6 +13,8 @@
 		B3B467B0170BE3CF00706D9E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B3B467AE170BE3CF00706D9E /* Credits.rtf */; };
 		B3B467B3170BE3CF00706D9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B467B2170BE3CF00706D9E /* AppDelegate.m */; };
 		B3B467B6170BE3CF00706D9E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3B467B4170BE3CF00706D9E /* MainMenu.xib */; };
+		B3B467BE170BE64A00706D9E /* BotBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B467BD170BE64A00706D9E /* BotBrain.m */; };
+		B3D42DC8170CB6F300F17CD5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D42DC7170CB6F300F17CD5 /* NSData+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		B3B467B1170BE3CF00706D9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3B467B2170BE3CF00706D9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B3B467B5170BE3CF00706D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B3B467BC170BE64A00706D9E /* BotBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BotBrain.h; sourceTree = "<group>"; };
+		B3B467BD170BE64A00706D9E /* BotBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BotBrain.m; sourceTree = "<group>"; };
+		B3D42DC6170CB6F300F17CD5 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		B3D42DC7170CB6F300F17CD5 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				B3B467B1170BE3CF00706D9E /* AppDelegate.h */,
 				B3B467B2170BE3CF00706D9E /* AppDelegate.m */,
 				B3B467B4170BE3CF00706D9E /* MainMenu.xib */,
+				B3B467BC170BE64A00706D9E /* BotBrain.h */,
+				B3B467BD170BE64A00706D9E /* BotBrain.m */,
+				B3D42DC6170CB6F300F17CD5 /* NSData+Base64.h */,
+				B3D42DC7170CB6F300F17CD5 /* NSData+Base64.m */,
 				B3B467A6170BE3CF00706D9E /* Supporting Files */,
 			);
 			path = BTCEBot;
@@ -168,6 +178,8 @@
 			files = (
 				B3B467AC170BE3CF00706D9E /* main.m in Sources */,
 				B3B467B3170BE3CF00706D9E /* AppDelegate.m in Sources */,
+				B3B467BE170BE64A00706D9E /* BotBrain.m in Sources */,
+				B3D42DC8170CB6F300F17CD5 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +315,7 @@
 				B3B467BB170BE3CF00706D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
