@@ -10,4 +10,11 @@
 
 @interface BtceApiHandler : NSObject
 
+@property (nonatomic,strong) NSString *api_key;
+@property (nonatomic,strong) NSString *secret_key;
+
+- (NSData *)getResponseFromServerForPost:(NSDictionary *)postDictionary;
+
+- (NSData *)getResponseFromPublicServerUrl:(NSString *)urlString;
+
 @end
